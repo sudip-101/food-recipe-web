@@ -24,7 +24,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--clr-lightgrey);
+  background: var(--clr-white);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -98,6 +98,8 @@
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
+
+  background: var(--clr-lightgrey);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -142,9 +144,7 @@
   }
 
   .recipe-container {
-    padding: 1rem;
-
-    gap: 1rem;
+    padding: 2rem 1rem;
   }
 
   .recipe-box h1 {
