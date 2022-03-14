@@ -101,6 +101,7 @@
   gap: 4rem;
 
   background: var(--clr-lightgrey);
+  position: relative;
 }
 
 @media only screen and (max-width: 1024px) {

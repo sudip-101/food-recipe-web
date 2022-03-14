@@ -24,7 +24,7 @@ const App = () => {
       )
       .then((response) => {
         console.log(response);
-        setLoading(false);
+        setLoading(true);
         setRecipes(response.data.hits);
       })
       .catch((error) => {
