@@ -8,6 +8,7 @@
 }
 
 .recipe-box {
+  min-width: 300px;
   padding: 3rem 2rem;
 
   display: flex;
@@ -32,11 +33,18 @@
 }
 
 .recipe-box ol {
+  max-width: 95%;
   list-style-position: inside;
 
   display: flex;
   flex-direction: column;
   gap: 6px;
+}
+
+.recipe-box ol li {
+  white-space: normal !important;
+  width: 100%;
+  word-wrap: break-word !important;
 }
 
 .content {
@@ -57,10 +65,4 @@
   width: 200px;
 
   border-radius: 50%;
-}
-
-@media only screen and (max-width: 378px) {
-  .recipe-box {
-    padding: 2rem 1rem;
-  }
 }

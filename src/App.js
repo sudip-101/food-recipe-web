@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "./App.css";
 import Recipe from "./recipe";
 import Header from "./header";
+import "./App.css";
 import axios from "axios";
 import Loader from "./Loader";
 

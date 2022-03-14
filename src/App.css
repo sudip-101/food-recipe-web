@@ -105,7 +105,7 @@
 
 @media only screen and (max-width: 1024px) {
   .recipe-container {
-    padding: 3rem;
+    padding: 3rem 2rem;
 
     gap: 3rem;
   }
@@ -113,21 +113,21 @@
 
 @media only screen and (max-width: 824px) {
   .recipe-container {
-    padding: 4rem;
-
     grid-template-columns: auto;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 648px) {
   .search-bar {
     width: 250px;
   }
 
   .recipe-container {
-    padding: 2rem;
-
     gap: 2rem;
+  }
+
+  .recipe-box {
+    padding: 2rem;
   }
 
   .recipe-box h1 {
@@ -145,6 +145,10 @@
   }
 
   .recipe-container {
+    padding: 2rem 1rem;
+  }
+
+  .recipe-box {
     padding: 2rem 1rem;
   }
 
