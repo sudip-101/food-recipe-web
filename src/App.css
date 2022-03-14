@@ -91,6 +91,7 @@
 }
 
 .recipe-container {
+  min-height: 100vh;
   padding: 4rem;
 
   display: grid;
